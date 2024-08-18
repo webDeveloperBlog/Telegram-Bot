@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  margin: 25px 0 0 65px;
+}
+
+.alert {
+  position: relative;
+}
+
+.alert > span {
+  position: absolute;
+  cursor: pointer;
+  top: -5px;
+  right: 5px;
+  font-size: 22px;
+}
+
+.hidden {
+  display: none;
+}
